@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 	$('.c_slider-list').slick({
 		slidesToShow: 1, slidesToScroll: 1, arrows: true, autoplay: true, dots: true, autoplaySpeed: 8000,
     responsive: [
-      { breakpoint: 1000, settings: { slidesToShow: 1 } }
+      { breakpoint: 1000, settings: { arrows: false } }
     ]
 	});
 
